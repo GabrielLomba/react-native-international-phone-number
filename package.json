@@ -1,8 +1,8 @@
 {
-  "name": "react-native-international-phone-number",
-  "author": "AstrOOnauta (https://github.com/AstrOOnauta)",
-  "version": "0.10.5",
-  "description": "International mobile phone input component with mask for React Native",
+  "name": "@yourusername/react-native-international-phone-number",
+  "author": "Gabriel Lomba (https://github.com/GabrielLomba)",
+  "version": "0.10.6",
+  "description": "International mobile phone input component with mask for React Native (based on react-native-international-phone-number by AstrOOnauta)",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -33,12 +33,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AstrOOnauta/react-native-international-phone-number.git"
+    "url": "git+https://github.com/GabrielLomba/react-native-international-phone-number"
   },
   "bugs": {
-    "url": "https://github.com/AstrOOnauta/react-native-international-phone-number/issues"
+    "url": "https://github.com/GabrielLomba/react-native-international-phone-number"
   },
-  "homepage": "https://github.com/AstrOOnauta/react-native-international-phone-number",
+  "homepage": "https://github.com/GabrielLomba/react-native-international-phone-number",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"

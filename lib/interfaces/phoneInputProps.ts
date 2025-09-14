@@ -1,5 +1,5 @@
 import {Ref, ReactNode} from 'react';
-import {TextInputProps} from 'react-native';
+import {TextInput, TextInputProps} from 'react-native';
 import {
   ICountry,
   ICountryCca2,
@@ -9,9 +9,12 @@ import {
 
 import {ITheme} from './theme';
 import {IPhoneInputStyles} from './phoneInputStyles';
-import {IPhoneInputRef} from './phoneInputRef';
 
-interface BasePhoneInput extends TextInputProps {
+interface IPhoneInputProps extends TextInputProps {
+  value: string;
+  onChangePhoneNumber: (phoneNumber: string) => void;
+  selectedCountry: ICountry | undefined | null;
+  onChangeSelectedCountry: (country: ICountry) => void;
   theme?: ITheme;
   language?: ICountrySelectLanguages;
   placeholder?: string;
@@ -49,24 +52,7 @@ interface BasePhoneInput extends TextInputProps {
   showModalSearchInput?: boolean;
   showModalCloseButton?: boolean;
   showModalScrollIndicator?: boolean;
+  ref: Ref<TextInput>;
 }
 
-interface IPhoneInputPropsWithoutRef extends BasePhoneInput {
-  value: string;
-  onChangePhoneNumber: (phoneNumber: string) => void;
-  selectedCountry: ICountry | undefined | null;
-  onChangeSelectedCountry: (country: ICountry) => void;
-  ref?: never;
-}
-
-interface IPhoneInputPropsWithRef extends BasePhoneInput {
-  value?: never;
-  onChangePhoneNumber?: never;
-  selectedCountry?: never;
-  onChangeSelectedCountry?: never;
-  ref: Ref<IPhoneInputRef>;
-}
-
-export type PhoneInputProps =
-  | IPhoneInputPropsWithRef
-  | IPhoneInputPropsWithoutRef;
+export type PhoneInputProps = IPhoneInputProps;

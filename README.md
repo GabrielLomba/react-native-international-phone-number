@@ -6,38 +6,16 @@
 
 <br>
 
-<h1 align="center">React Native International Phone Number Input</h1>
+# @gabriellomba/react-native-international-phone-number
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/react-native-international-phone-number">
-    <img src="https://img.shields.io/npm/v/react-native-international-phone-number.svg?style=flat-square">
-  </a>
-  <a href="https://www.npmjs.com/package/react-native-international-phone-number">
-    <img src="https://img.shields.io/npm/dt/react-native-international-phone-number.svg?style=flat-square&color=success">
-  </a>
-  <a href="https://github.com/AstrOOnauta/react-native-international-phone-number">
-    <img src="https://img.shields.io/github/stars/AstrOOnauta/react-native-international-phone-number?style=flat-square&color=success"/>
-  </a>
-  <a href="https://github.com/AstrOOnauta/react-native-international-phone-number/issues">
-    <img src="https://img.shields.io/github/issues/AstrOOnauta/react-native-international-phone-number?style=flat-square&color=blue"/>
-  </a>
-  <a href="https://github.com/AstrOOnauta/react-native-international-phone-number/pulls">
-    <img src="https://img.shields.io/github/issues-pr/AstrOOnauta/react-native-international-phone-number?style=flat-square&color=blue"/>
-  </a>
-  <a href="LICENSE.md">
-    <img src="https://img.shields.io/:license-isc-yellow.svg?style=flat-square"/>
-  </a>
-</p>
+This package is based on [react-native-international-phone-number](https://github.com/AstrOOnauta/react-native-international-phone-number) by AstrOOnauta.
 
-<br>
+## Changes from Original
+- Drops custom ref altogether (ref goes straight to the TextInput rather than keeping custom state)
+- Handles country / phone number initial state accordingly
 
-<div align = "center">
-    <a href="https://www.buymeacoffee.com/astroonauta" target="_blank">
-        <img src="https://survivingmexico.files.wordpress.com/2018/07/button-gif.gif" alt="Buy Me A Coffee" style="height: auto !important;width: 60% !important;">
-    </a>
-</div>
-
-<br>
+## Original Package
+Original work by [AstrOOnauta](https://github.com/AstrOOnauta)
 
 ## Features
 
