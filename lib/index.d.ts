@@ -2,7 +2,6 @@ import {JSX} from 'react';
 import {ICountry, ICountrySelectLanguages} from 'react-native-country-select';
 
 import {ITheme} from './interfaces/theme';
-import {IPhoneInputRef} from './interfaces/phoneInputRef';
 import {PhoneInputProps} from './interfaces/phoneInputProps';
 
 declare function PhoneInput(props: PhoneInputProps): JSX.Element;
@@ -41,6 +40,5 @@ export {
   ITheme,
   ICountrySelectLanguages,
   ICountry,
-  IPhoneInputRef,
   PhoneInputProps,
 };
