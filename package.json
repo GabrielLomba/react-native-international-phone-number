@@ -1,7 +1,7 @@
 {
   "name": "@gabriellomba/react-native-international-phone-number",
   "author": "Gabriel Lomba (https://github.com/GabrielLomba)",
-  "version": "0.10.6",
+  "version": "0.10.7",
   "description": "International mobile phone input component with mask for React Native (based on react-native-international-phone-number by AstrOOnauta)",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

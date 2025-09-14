@@ -52,7 +52,7 @@ interface IPhoneInputProps extends TextInputProps {
   showModalSearchInput?: boolean;
   showModalCloseButton?: boolean;
   showModalScrollIndicator?: boolean;
-  ref: Ref<TextInput>;
+  ref?: Ref<TextInput>;
 }
 
 export type PhoneInputProps = IPhoneInputProps;
